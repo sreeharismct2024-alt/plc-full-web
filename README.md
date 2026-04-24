@@ -55,18 +55,7 @@ touch .env.local
 New-Item -Path ".env.local" -ItemType File
 ```
 
-Add these variables:
 
-```env
-# REQUIRED: Your Groq API key from https://console.groq.com/keys
-GROQ_API_KEY=your_groq_api_key_here
-
-# OPTIONAL: Additional security settings
-NEXT_PUBLIC_API_SECRET=your_secret_key_here
-API_RATE_LIMIT=10
-API_RATE_WINDOW_MS=60000
-NODE_ENV=development
-```
 
 **⚠️ Security Note:** `.env.local` is in `.gitignore` — never commit API keys to git.
 
@@ -81,7 +70,7 @@ npm run dev
 # Ready in X.XXXs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) and test the AI input field.
+Open [[http://localhost:3000](https://venerable-selkie-8451bf.netlify.app/) and test the AI input field.
 
 ## 🔐 API Security & Architecture
 
